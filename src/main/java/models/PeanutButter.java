@@ -5,6 +5,24 @@ public class PeanutButter {
     private String type;
     private int quantity;
     private double price;
+
+    //CONSTRUCTORS
+    public PeanutButter(){
+        brand = "";
+        type = "";
+        quantity = 0;
+        price = 0.00;
+    }
+
+    public PeanutButter(String brand, String type, int quantity, double price){
+        this.brand = brand;
+        this.type = type;
+        this.quantity = quantity;
+        this.price = price;
+    }
+
+
+
     //SETTERS
     public void setType(String type){
         this.type = type;

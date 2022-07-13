@@ -2,10 +2,29 @@ package models;
 
 public class Cracker {
     private String brand;
-    private String name;
     private String type;
     private int quantity;
     private double price;
+
+    //CONSTRUCTORS
+    //CONSTRUCTORS
+    public Cracker(){
+        brand = "";
+        type = "";
+        quantity = 0;
+        price = 0.00;
+    }
+
+    public Cracker(String brand, String type, int quantity, double price){
+        this.brand = brand;
+        this.type = type;
+        this.quantity = quantity;
+        this.price = price;
+    }
+
+
+
+
 
     //SETTERS
     public void setType(String type){
@@ -16,9 +35,6 @@ public class Cracker {
     }
     public void setPrice(double price){
         this.price = price;
-    }
-    public void setName(String name){
-        this.name = name;
     }
     public void setBrand(String brand){
         this.brand = brand;
@@ -34,9 +50,6 @@ public class Cracker {
     }
     public double getPrice(){
         return this.price;
-    }
-    public String getName(){
-        return this.name;
     }
     public String getBrand(){
         return this.brand;
