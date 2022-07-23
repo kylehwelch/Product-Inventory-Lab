@@ -4,10 +4,12 @@ import models.Cracker;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class CrackerServiceTest {
 
     @Test
-    public void testCCreate(){
+    public void testCCreate() throws IOException {
         String exbrand = "jif";
         String extype = "chunky";
         int exqua = 5;
