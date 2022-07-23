@@ -5,6 +5,7 @@ public class PeanutButter {
     private String type;
     private int quantity;
     private double price;
+    private int id;
 
     //CONSTRUCTORS
     public PeanutButter(){
@@ -12,13 +13,15 @@ public class PeanutButter {
         type = "";
         quantity = 0;
         price = 0.00;
+        id = 0;
     }
 
-    public PeanutButter(String brand, String type, int quantity, double price){
+    public PeanutButter(String brand, String type, int quantity, double price, int id){
         this.brand = brand;
         this.type = type;
         this.quantity = quantity;
         this.price = price;
+        this.id = id;
     }
 
 
@@ -50,6 +53,9 @@ public class PeanutButter {
     }
     public String getBrand(){
         return this.brand;
+    }
+    public int getId(){
+        return this.id;
     }
 
 

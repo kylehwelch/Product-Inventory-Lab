@@ -5,6 +5,7 @@ public class Cracker {
     private String type;
     private int quantity;
     private double price;
+    private int id;
 
     //CONSTRUCTORS
     //CONSTRUCTORS
@@ -13,13 +14,15 @@ public class Cracker {
         type = "";
         quantity = 0;
         price = 0.00;
+        id = 0;
     }
 
-    public Cracker(String brand, String type, int quantity, double price){
+    public Cracker(String brand, String type, int quantity, double price, int id){
         this.brand = brand;
         this.type = type;
         this.quantity = quantity;
         this.price = price;
+        this.id = id;
     }
 
 
@@ -54,5 +57,9 @@ public class Cracker {
     public String getBrand(){
         return this.brand;
     }
+    public int getId(){
+        return this.id;
+    }
+
 
 }

@@ -2,7 +2,7 @@
 
 #### The Brief
 
-At this point, the inventory manager can create, read, update, and delete products. We have implemented a service to manage products and a console to interact with a user. This is awesome but there are some limitations to the application as it is now. One of these limitations is the lack of persistence, and we will tackle this next.
+At this point, the inventory manager can create, read, update, and delete products. We have implemented a service to manage products and a Console to interact with a user. This is awesome but there are some limitations to the application as it is now. One of these limitations is the lack of persistence, and we will tackle this next.
 
 ### Objectives
 

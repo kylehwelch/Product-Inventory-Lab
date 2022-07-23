@@ -40,7 +40,7 @@ git checkout -b feature-sneaker-properties
 
 Open up one of your models and add create class members to match the properties you used earlier. 
 
-**main/java/models/Sneaker.java**
+**Main/java/models/Sneaker.java**
 
 ```java
 package models;
@@ -99,7 +99,7 @@ The IDE may be upset because ```setName()``` and ```getName()``` don't exist. Th
 
 Back in the model we can continue adding ```setName()``` and ```getName()```
 
-**main/java/models/Sneaker.java**
+**Main/java/models/Sneaker.java**
 
 ```java
 public void setName(String name) {
@@ -215,7 +215,7 @@ This is where Service classes comes handy. It will have methods for creating, fi
 
 As always start with a new branch
 
-**main/java/services/SneakerService.java**
+**Main/java/services/SneakerService.java**
 
 ```java
 public class SneakerService {
@@ -280,7 +280,7 @@ public class SneakerServiceTest {
 
 Now it's time to implement the create sneaker logic:
 
-**/main/java/services/SneakerService.java**
+**/Main/java/services/SneakerService.java**
 
 ```java
 // (1)

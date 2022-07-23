@@ -151,31 +151,31 @@ Because creating objects are common and frequent, we need to keep things organiz
 
 Inside the *Project* tab, located in top right of IDE
 
-The **src** package is where we will put most of our files. Inside you will find a **main** and a **test** package. 
+The **src** package is where we will put most of our files. Inside you will find a **Main** and a **test** package. 
 
-* **main** - This is where the main application code is located
+* **Main** - This is where the Main application code is located
 * **test** - This is where test classes are located
 
-And inside both packages you will find a **java** folder. It is inside these "java" folders you will put you work. We also want to keep the folder structures between "main" and "test" packages the same. Let look at what this means.
+And inside both packages you will find a **java** folder. It is inside these "java" folders you will put you work. We also want to keep the folder structures between "Main" and "test" packages the same. Let look at what this means.
 
-Lets create two packages inside main->java and lets call them "models" and "services"
+Lets create two packages inside Main->java and lets call them "models" and "services"
 
 Many times developers will call the classes that represent and object as a "model". This package will contain the different products that are going to be inventoried. 
 
 ```
-main
+Main
 ├── java
 │   ├── models
 │   └── services
 └── resources
 ```
 
-As was stated earlier the "test" and "main" packages need to mirror each outher. So lets create "models" and "services" packages inside the test->java package.
+As was stated earlier the "test" and "Main" packages need to mirror each outher. So lets create "models" and "services" packages inside the test->java package.
 
 The final package structure should look like the following.
 
 ```
-├── main
+├── Main
 │   ├── java
 │   │   ├── models
 │   │   └── services
@@ -189,7 +189,7 @@ The final package structure should look like the following.
 Let create the class files for the products in our store. For my example store I will make a "Sneaker" class and a "Whiskey" class.
 
 ```
-src/main
+src/Main
 ├── java
 │   ├── models
 │   │   ├── Sneaker.java
@@ -207,7 +207,7 @@ For my example store I will have the follwing test classes.
 
 ```
 src
-├── main
+├── Main
 │   ├── java
 │   │   ├── models
 │   │   │   ├── Sneaker.java
